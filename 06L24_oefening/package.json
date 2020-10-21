@@ -1,0 +1,19 @@
+{
+  "name": "06L24_oefening",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testwatch": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
