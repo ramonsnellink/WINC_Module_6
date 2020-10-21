@@ -8,3 +8,4 @@ function formatStr(str) {
 }
 
 module.exports = isAnagram;
+//test
