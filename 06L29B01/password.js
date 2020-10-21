@@ -17,15 +17,15 @@ const isNotNull = (str) => {
 };
 
 const hasRightLength = (str) => {
-  return str.length <= 9;
+  return isNotNull(str) && str.length <= 9;
 };
 
 const hasUpperCaseCharacter = (str) => {
-  return str !== str.toLowerCase();
+  return isNotNull(str) && str !== str.toLowerCase();
 };
 
 const hasLowerCaseCharacter = (str) => {
-  return str !== str.toUpperCase();
+  return isNotNull(str) && str !== str.toUpperCase();
 };
 
 const hasDigit = (str) => {
