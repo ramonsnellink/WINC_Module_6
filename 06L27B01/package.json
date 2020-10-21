@@ -1,8 +1,8 @@
 {
-  "name": "06L28B01",
+  "name": "06L27B01",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "functions.js",
   "scripts": {
     "test": "jest"
   },
